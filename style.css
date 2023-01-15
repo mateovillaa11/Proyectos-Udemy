@@ -1,0 +1,70 @@
+/*Paleta de colores*/
+:root {
+    --Blanco:#ffff;
+    --Oscuro:#212121;
+    --Primario:#ffc107;
+    --secundario: #0097a7;
+    --girs: #757575;
+
+}
+
+
+/* Principal */ 
+
+html {
+    font-size: 62.5%;
+}
+body {
+    font-size: 16px;
+    font-family: 'Krub', sans-serif;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 3.8rem; 
+}
+.titulo span {
+    font-size: 2rem;
+}
+
+/* Navegacion */
+
+.nav-bg{
+    background-color: var(--secundario);
+}
+
+.contenedor{
+    width: 120rem;
+    margin: 0 auto 0 auto;
+}
+
+.navegacion-principal {
+    display: flex;
+    justify-content: space-around;
+} 
+
+.navegacion-principal a {
+    color: var(--Blanco);
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 1rem;
+}
+
+.navegacion-principal a:hover {
+    background-color: var(--Primario);
+    color: var(--Oscuro)
+}
+
+
+/* @media only screen and (max-width: 768px) {
+    .navegacion-principal{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:center;
+        gap: 1rem;
+    }
+} */
+
+
